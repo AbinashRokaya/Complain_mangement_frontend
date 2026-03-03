@@ -144,7 +144,7 @@ export default function AdminPanel() {
         if (err.detail && err.detail.length > 0) {
           setError(err.detail);
         } else {
-          setError("Complain failed");
+          setError("fail to login admin");
         }
       });
   };
@@ -195,7 +195,7 @@ export default function AdminPanel() {
               : err.detail;
           setError(message);
         } else {
-          setError("Complain failed");
+          setError("failed to update ");
         }
       });
   };

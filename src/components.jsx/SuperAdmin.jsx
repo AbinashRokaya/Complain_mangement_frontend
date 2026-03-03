@@ -179,7 +179,7 @@ function SuperAdmin() {
         if (err.detail && err.detail.length > 0) {
           setError(err.detail);
         } else {
-          setError("Complain failed");
+          setError("User failed to fetch");
         }
       });
   };
@@ -218,7 +218,7 @@ function SuperAdmin() {
         if (err.detail && err.detail.length > 0) {
           setError(err.detail);
         } else {
-          setError("Complain failed");
+          setError("User failed to fetch");
         }
       });
   };

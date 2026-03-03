@@ -84,7 +84,7 @@ function ComplainList() {
         if (err.detail && err.detail.length > 0) {
           setError(err.detail);
         } else {
-          setError("Complain failed");
+          setError("Complain failed to fetch");
         }
       });
   };

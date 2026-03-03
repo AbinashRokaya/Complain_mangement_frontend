@@ -105,7 +105,7 @@ export default function AdminPanel() {
         if (err.detail && err.detail.length > 0) {
           setError(err.detail);
         } else {
-          setError("Complain failed");
+          setError("Complain failed to fetch");
         }
       });
   };
@@ -144,7 +144,7 @@ export default function AdminPanel() {
         if (err.detail && err.detail.length > 0) {
           setError(err.detail);
         } else {
-          setError("fail to login admin");
+          setError("Complain failed to fetch");
         }
       });
   };

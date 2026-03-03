@@ -60,7 +60,7 @@ const router = createBrowserRouter([
       {
         path: "/complaint",
         element: (
-          <AuthLayout authentication>
+          <AuthLayout authentication={false}>
             <Complaint />,
           </AuthLayout>
         ),
@@ -68,7 +68,7 @@ const router = createBrowserRouter([
       {
         path: "/complaint_List",
         element: (
-          <AuthLayout authentication>
+          <AuthLayout authentication={false}>
             <ComplainList />,
           </AuthLayout>
         ),
@@ -76,7 +76,7 @@ const router = createBrowserRouter([
       {
         path: "/admin",
         element: (
-          <AuthLayout authentication>
+          <AuthLayout authentication={false}>
             <Admin />,
           </AuthLayout>
         ),
@@ -84,7 +84,7 @@ const router = createBrowserRouter([
       {
         path: "/superAdmin",
         element: (
-          <AuthLayout authentication>
+          <AuthLayout authentication={false}>
             <SuperAdmin />,
           </AuthLayout>
         ),
